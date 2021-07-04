@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ระบบตรวจสอบบุคคลเดินทางเข้าจังหวัดสงขลา</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>จำนวนผู้เดินทางเข้าใหม่ของวันนี้</h2>
+        <p>
+            5
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>จำนวนผู้เดินทางมาจากกรุงเทพ<</h2>
+        <p>
+            @ViewBag.Province
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>จำนวนผู้เดินทางมาจากกต่างประเทศ</h2>
+        <p>
+            @ViewBag.Aboard
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <strong><a href="mailto:Marketing@example.com">กรอกประวัติการเข้าจังหวัดสงขลา</a></strong>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <strong><a href="mailto:Marketing@example.com">ข้อมูลบุคคลเข้าจังหวัดสงขลาทั้งหมด</a></strong>
+    </div>
+</div>
