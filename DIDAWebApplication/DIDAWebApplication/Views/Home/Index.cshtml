@@ -1,6 +1,4 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿@{ ViewBag.Title = "Home Page"; }
 
 <div class="jumbotron">
     <h1>ระบบตรวจสอบบุคคลเดินทางเข้าจังหวัดสงขลา</h1>
@@ -29,12 +27,12 @@
 
 <div class="row">
     <div class="col-md-4">
-        <strong><a href="mailto:Marketing@example.com">กรอกประวัติการเข้าจังหวัดสงขลา</a></strong>
+        <strong><a href="@Url.Action("Create", "Users")">กรอกประวัติการเข้าจังหวัดสงขลา</a></strong>
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <strong><a href="mailto:Marketing@example.com">ข้อมูลบุคคลเข้าจังหวัดสงขลาทั้งหมด</a></strong>
+        <strong><a href="@Url.Action("Lists", "Users")">ข้อมูลบุคคลเข้าจังหวัดสงขลาทั้งหมด</a></strong>
     </div>
 </div>
